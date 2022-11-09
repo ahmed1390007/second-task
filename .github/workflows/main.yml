@@ -7,4 +7,11 @@ on:
 
 
 jobs:
-
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: 'testing githu action'
+        run: pwd
+      - name: 'testing printing'
+        run: echo ahmed
