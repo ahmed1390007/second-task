@@ -12,5 +12,5 @@ jobs:
     
     steps:
       - uses: actions/checkout@v3
-      - name: 'login to docker hub'
-        run: docker login --username ${{ secrets.DOCKER_PASS }} --password ${{ secrets.DOCKER_PASS }}
+      - name: "login to docker hub"
+        run: docker login --username ahmedrezq -- password dckr_pat_Fjdc4TTfdRtZ7NeZNjXJgnLDvoE
